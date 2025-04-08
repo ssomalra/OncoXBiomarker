@@ -57,15 +57,3 @@ FOREIGN KEY (reference_id) REFERENCES Ref(reference_id) ON DELETE CASCADE
    LOAD DATA LOCAL INFILE '~/Documents/IUPUI/24-25 Courses/Database/FinalProject/django/Biomarker_Impact.tsv' INTO TABLE Biomarker_Impact FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
    LOAD DATA LOCAL INFILE '~/Documents/IUPUI/24-25 Courses/Database/FinalProject/django/Biomarker_Impact_Reference.tsv' INTO TABLE Biomarker_Impact_Reference FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 */
-
-SELECT * FROM Biomarker;
-SELECT * FROM Cancer;
-SELECT * FROM Biomarker_Impact;
-SELECT * FROM Ref;
-SELECT * FROM Biomarker_Impact_Reference;
-
-DROP TABLE Biomarker_Impact_Reference;
-DROP TABLE Biomarker_Impact;
-#DROP TABLE Biomarker;
-DROP TABLE Cancer;
-DROP TABLE Ref;
