@@ -15,11 +15,9 @@ A Django-based web application that allows users to explore a curated cancer bio
 </p>
 
 ## Tech Stack
-- Frontend: HTML (CSS optional)
+- Frontend: HTML and CSS
 - Backend: Django (Python)
 - Database: MySQL
-- Deployment Option: PythonAnywhere or Render
-- Version Control: Git + GitHub
 
 <p align="center">
   <img width="504" alt="Screenshot 2025-04-08 at 3 39 29 PM" src="https://github.com/user-attachments/assets/dca4dc38-9904-4696-840a-4601ce723f28" />
