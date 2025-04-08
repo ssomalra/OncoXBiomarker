@@ -1,0 +1,82 @@
+biomarker_id	gene_symbol	gene_full_name	gene_function
+B1	BRAF	B-Raf proto-oncogene, serine/threonine kinase	Regulation of cell cycle, cell differentiation, and secretion
+B2	KRAS	KRAS proto-oncogene, GTPase	Regulation of cell cycle, cell differentiation, and secretion
+B3	TP53	tumor protein p53	Response to cellular stress as a transcriptional regulator to control cell cycle, apoptosis, senecense, DNA repair, and cellular metabolism
+B4	BRCA1	BRCA1 DNA repair associated	Maintains genomic stability through transcription, DNA repair, and recombination processes
+B5	BRCA2	BRCA2 DNA repair associated	Helps facilitate DNA repair through the homolgous recombination pathway
+B6	WFDC2	WAP four-disulfide core domain 2	Secratory protein, protease inhibitor, involved in sperm maturation
+B7	MUC13	mucin 16, cell surface associated	Transmembrane protein which forms a barrier to protect epithelial cells
+B8	SPP1	secreted phosphoprotein 1	Cytokine that upregulates expression of interferon-gamma and interleukin-12
+B9	PMEL	premelanosome protein	Component of the fibrillar matrix for the polymerization of eumelanin
+B10	MLANA	melan-A	Required for expression, trafficking, processing, and stability of PMEL
+B11	TYR	tyrosinase	Synthesis of melanin
+B12	MITF	melanocyte inducing transcription factor	Regulates melanocyte devolpment and differentiation
+B13	NF1	fibronectin 1	Contributes to cell adhesion and migration
+B14	ARID2	AT-rich interation domain 2	Chromatin remodeling and transcriptional regulation Tumor supressor
+B15	CSPG4	chondroitin sulfate proteoglycan 4	Promotes cell adhesion, motility, and growth
+B16	CDKN2A	cyclin dependent kinase inhibitor 2A	Tumor suppressor gene
+B17	MC1R	melanocortin 1 receptor	Involved in skin and hair pigmentation, leading to red hair or fair skin
+B18	TERT	telomerase reverse transcriptase	Maintains telomeres and plays a role in devlopment of cancer
+B19	CDK4	cyclin dependent kinase 4	Regulates cell cycle specifically the phase G1 (DNA replication preperation)
+B20	BAP1	BRCA1 associated deubiquitinase 1	Tumpr supressor gene on chromosome 3
+B21	PTCH1	patched 1	Tumor suppressor gene, role in epidermal devolpment
+B22	PTCH2	patched 2	Tumor suppressor gene, role in epidermal devolpment
+B23	RECQL4	RecQ like helicase 4	Gene encodes a helicase in DNA replication and repair
+B24	NOTCH1	notch receptor 1	Involved in cell fate determination, cell growth, and apotosis
+B25	DDB2	damage specific DNA binding protein 2	Essential for nucleotide excision repair, especially in recognizing and repairing UV-induced DNA damage
+B26	ERCC1	ERCC excision repair 1, endonuclease non-catalytic subunit	Maintains genomic integrity by fixing UV DNA damage
+B27	ERCC2	ERCC excision repair 2, TFIIH core complex helicase subunit	Maintains genomic integrity by fixing UV DNA damage
+B28	ERCC3	ERCC excision repair 3, TFIIH core complex helicase subunit	Maintains genomic integrity by fixing UV DNA damage
+B29	ERCC4	ERCC Excision repair 4, cross complemntation	Maintains genomic integrity by fixing UV DNA damage
+B30	ERCC5	ERCC excision repair 5, endonuclease	Maintains genomic integrity by fixing UV DNA damage
+B31	POLH	DNA polymerase eta	Involved in DNA repair, helping to bypass UV-induced DNA damage
+B32	XPA	XPA, DNA damage recognition and repair factor	Nucleotide excision repair (process that fixes UV-induced DNA damage and chemical damage)
+B33	XPC	XPC complex subunit, DNA damage recognition and repair factor	Part of global genome repair, XPC regonizes DNA damage and initiates the repair process by recuiting other repair factors
+B34	MLH1	mutL homolog 1	Part of the Microsatellite Instability (MMR) system, corrects DNA replication errors
+B35	APC	Adenomatous Polyposis Coli	Regulates cell growth and development 
+B36	AR	Androgen receptor	Transcription factor for normal prostate functioning
+B37	ATM	Ataxia Telangiectasia mutated 	Involved in DNA damage response and repair
+B38	CHD1	Chromodomain helicase DNA protein 1	Plays a role in organizing and accessing DNA, cruicial for processes like DNA replication, transcription and repair
+B39	ERF	ETS2 Repressor Factor	Acts as a repressor, inhibit the expression of other genes
+B40	ERG	ETS-related gene	Encodes a protein that functions as a transcriptional regulator (e.g., it controls which genes are turned on or off in a cell)
+B41	ETS2	ETS Proto-Oncogene 2, Transcription Factor	Regulate many target genes that regulate cell growth, angiogenesis, differentiation, and proliferation 
+B42	ETV1	ETS Variant Transcription Factor 1	Regulates genes involved in cell growth, angiogensis, migration, proliferation, and differenciation 
+B43	ETV4	ETS variant transcription factor 4	Transcription factor, regulates the expression of other genes by binding to specific DNA sequences
+B44	ETV5	E26 transformation-specific transcription variant 5	Involved in physiological processes including devlopment and cancer progression 
+B45	EZH2	Enhancer of zeste homolog 2	Methyl groups to histones, lead to gene silencing 
+B46	FOXA1	Forkhead box protein A1	Promotes prostate cancer angiogenesis
+B47	IDH1	Isocitrate dehydrogenase 1	Enzyme involved in the Krebs cycle
+B48	KMT2A	lysine methyltransferase 2A	Transcriptional coactivator, regulating gene expression 
+B49	KMT2C	lysine methyltransferase 2C	Plays a role in activating gene transcription
+B50	KMT2D 	Histone-lysine N-methyltransferase 2D	Adds methyl groups to histones
+B51	KDM1A 	Lysine-specific histone demethylase 1A	Involved in removing methyl growps from histone proteins, which can affect gene expression 
+B52	PCA3	Prostate Cancer Associated 3	Involved in encoding a long non-coding RNA 
+B53	KDM6A	Lysine Demethylase 6A	Provides instructions for making an enzyme called lysine-specific demathylase 6A
+B54	MYC	MYC proto-oncogene, bHLH transcription factor	Cell growth and division
+B55	MYCN	MYCN proto-oncogene, bHLH transcription factor	Protein coding gene 
+B56	NCOR1	nuclear receptor corepressor 1	Transcriptional coregulator 
+B57	NCOR2	nuclear receptor corepressor 2	Assists with gene expression by binding to DNA and recruiting proteins that silence gene activity 
+B58	NKX3-1	NK3 Homeobox 1	Negative regulator of epithelial cell growth 
+B59	PTEN	phosphatase and tensin homolog	Regulates cell growth, proliferation, adn survival by negatively regulating Pi3K/AKT signaling pathway 
+B60	RB1	RB Transcriptional Corepressor 1	Regulator of cell cycle 
+B61	SETD2	SET domain containing 2, histone lysine methyltransferase	Involved in modifying histones, proteins that package DNA by adding methyl groups to lysine residues 
+B62	SETDB1	SET Domain Bifurcated Histone Lysine Methyltransferase 1	Histone methy ltransferase--adds methyl to histones, effecting gene expression adn siliencing 
+B63	SMAD4	Mothers against decapentaplegic homolog 4	Protein coding gene 
+B64	SMARCA1	SWI/SNF related BAF chromatin remodeling complex subunit ATPase 1	Remodels chromatin
+B65	SMARCA2	SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2	Remodels chromatin
+B66	SPOP	speckle-type POZ protein	Promotes protein degradation 
+B67	EGFR	epidermal growth factor 	Tyrosine kinase receptor; activation of signaling pathways that promote cellular proliferation
+B68	ALK	anaplastic lymphoma kinase	Tyrosine kinase receptor; activation of signaling pathways that promote cellular proliferation
+B69	ROS1	ROS proto-oncogene 1, receptor tyrosine kinase	Epithelial cell differentiation during organ development 
+B70	ERBB2	erb-b2 receptor tyrsine kinase 2	Proto-oncogene that activates PI3k and MAPK singaling pathways 
+B71	MET	met proto-oncogene, receptor tyrosine kinase	Tyrosine kinase receptor; activation of signaling pathways that promote cellular proliferation,  embryogenesis, and cellular migration and invasion
+B72	RET	ret proto-oncogene	Tyrosine kinase receptor; activation of signaling pathways that promote cellular proliferation
+B73	PD-1/PD-L1	programmed death receptor / programmed death-ligand 1	Immune checkpoint; maintian self-tolerance and modulate immune response
+B74	CTLA-4	cytotoxic T-lymphocyte-associated antigen 4	A protein found on T cells (a type of immune cell) that helps keep the body’s immune responses in check. (National Cancer Insititue)
+B75	PIK3CA	Phosphatidylinositol-4,5-biphosphate 3-kinase catalytic subunit alpha	Serine/threonine kinase; promote cell growth, transformation, adhesion, apoptosis, survival and motility
+B76	FGFR1	fibroblast growth factor receptor	Tyrosine kinase receptor; activation of signaling pathways to promote cell survival, motility, migration, and proliferation 
+B77	ESR1	estrogen receptor 1	Regulates the transcription of many estrogen-inducible genes that play a role in growth, metabolism, sexual development, gestation, and other reproductive functions
+B78	MKI67	marker of proliferation Ki-67	Enables RNA binding activity and molecular condensate scaffold activity. Involved in chromosome segregation and regulation of mitotic nuclear division.
+B79	APC	Adenomatous polyposis coli	Negative regulator of the wnt signaling pathway; regulates migration, adhesion, transcription, and apoptosis
+B80	NDST4	N-deacetylase and N-sulfotransferase 4	Involved in biosynthesis of proteoglycans and polysaccharidess
+B81	IGF1R	insulin like growth factor 1 receptor	Receptor tyrosine kinase;controls cell growth and survival.

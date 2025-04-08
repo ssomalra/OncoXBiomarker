@@ -1,0 +1,310 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OncoXBiomarker | Cancer Biomarker Database</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    header, footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #0055aa;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      background-color: white;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    h2 { 
+      color: #003366;
+    }
+    /* Statistics styling */
+    #statistics-and-chart {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px; /* Space between the two containers */
+      margin-top: 40px;
+    }
+
+    .stats-container {
+      display: flex;
+      width: 100%; /* Ensures the flexbox takes up the full width */
+    }
+
+    .stats {
+      width: 48%; /* Left half of the screen for stats */
+    }
+
+    .chart-container {
+      width: 48%; /* Right half of the screen for the chart */
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .stat-card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-bottom: 30px; /* Adds space between the two stat cards */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: cencter;
+    }
+
+    .stat-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+    }
+
+    .stat-card h3 {
+      font-size: 1.2rem;
+      color: #003366;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .stat-card p {
+      font-size: 1.5rem;
+      color: #0077b6;
+      margin: 0;
+    }
+
+    .chart-container h3 {
+      font-size: 1.5rem;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    /* Dropdown styling */
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropbtn {
+      background-color: #0055aa;
+      color: white;
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #e3f2fd;
+      min-width: 160px;
+      z-index: 1;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .dropdown-content a {
+      color: #003366;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #d0e7ff;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #003366;
+    }
+
+    /* Button styling */
+    .cancer-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .cancer-button {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #0055aa;
+      background-color: #e6f0fa;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s;
+      display: inline-block;
+    }
+
+    .cancer-button img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .cancer-button span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 8px 0;
+      background-color: rgba(0, 85, 170, 0.85);
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      text-shadow: 0 0 4px black;
+    }
+
+    .cancer-button:hover {
+      transform: scale(1.1);
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>OncoXBiomarker</h1>
+  <p>An Open-Source Cancer Biomarker Database</p>
+</header>
+
+<nav>
+  <a href="{% url 'home' %}">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Cancers</button>
+    <div class="dropdown-content">
+      {% for cancer in cancers %}
+        <a href="{% url 'cancer_type_page' cancer.cancer_name %}">{{ cancer.cancer_name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <a href="{% url 'help_page' %}">Help</a>
+</nav>
+
+<div class="container">
+
+  <section id="intro">
+    <h2>Welcome to OncoXBiomarker</h2>
+    <p>OncoXBiomarker is a user-friendly platform designed to centralize information about cancer biomarkers and their impact on clinical research and treatment.</p>
+  </section>
+
+  <h2>Database Statistics</h2>
+  <section id="statistics-and-chart">
+    <div class="stats-container">
+      <div class="stats">
+        <div class="stat-card">
+          <h3>Total Cancer Types</h3>
+          <p><strong>{{ total_cancer_types }}</strong></p>
+        </div>
+        <div class="stat-card">
+          <h3>Total Biomarkers</h3>
+          <p><strong>{{ total_biomarkers }}</strong></p>
+        </div>
+      </div>
+  
+      <div class="chart-container">
+        <canvas id="biomarkerBarChart" width="300" height="300"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section id="cancers">
+    <h2>Explore by Cancer Type</h2>
+    <div class="cancer-buttons">
+        <div class="cancer-buttons">
+
+        <!-- Lung -->
+        <a class="cancer-button" href="/cancer-type/Lung/">
+            <img src="{% static 'images/LungCancer.png' %}" alt="Lung">
+            <span>Lung</span>
+        </a>
+          
+        <!-- Colorectal -->
+        <a class="cancer-button" href="/cancer-type/Colorectal/">
+          <img src="{% static 'images/ColorectalCancer.png' %}" alt="Colorectal">
+          <span>Colorectal</span>
+        </a>
+
+        <!-- Breast -->
+        <a class="cancer-button" href="/cancer-type/Breast/">
+            <img src="{% static 'images/BreastCancer.png' %}" alt="Breast">
+            <span>Breast</span>
+        </a>
+          
+        <!-- Ovarian -->
+        <a class="cancer-button" href="/cancer-type/Ovarian/">
+            <img src="{% static 'images/OvarianCancer.png' %}" alt="Ovarian">
+            <span>Ovarian</span>
+        </a>
+
+        <!-- Prostate -->
+        <a class="cancer-button" href="/cancer-type/Prostate/">
+            <img src="{% static 'images/ProstateCancer.png' %}" alt="Prostate">
+            <span>Prostate</span>
+        </a>
+
+        <!-- Skin -->
+        <a class="cancer-button" href="/cancer-type/Skin/">
+            <img src="{% static 'images/SkinCancer.png' %}" alt="Skin">
+            <span>Skin</span>
+        </a>    
+    </div>
+          
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 OncoXBiomarker | Built by Group 1: Bijal, Sahiti, Jess, Rebekah, and Alex</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{% static 'js/bar_chart.js' %}"></script>
+</body>
+</html>

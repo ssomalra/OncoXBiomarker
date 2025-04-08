@@ -1,0 +1,112 @@
+impact_id	biomarker_id	cancer_id	role	mutation_type	clinical_implication	pathway_involvement	treatment
+B1C1	B1	C1	Oncogene	SNP, Amplification	Prognosis, Treatment 	MAPK/ERK pathway; cell growth, proliferation, differentiation, survival, apoptosis	Surgery, Chemotherapy
+B2C1	B2	C1	Oncogene	SNP, Amplification	Prognosis, Treatment 	MAPK/ERK pathway; cell growth, proliferation, differentiation, survival, apoptosis	Surgery, Chemotherapy
+B3C2	B3	C2	Tumor Suppressor	Null Mutation	Prognosis	Cell cycle progression, senesence, apoptosis	Surgery, Chemotherapy
+B4C2	B4	C2	Tumor Supressor, Risk Factor	SNP, loss of function	Treatment	DNA Repair, Homologous recombination	PARPi
+B5C2	B5	C2	Tumor Supressor, Risk Factor	SNP, loss of function	Treatment	DNA Repair, Homologous recombination	PARPi
+B6C2	B6	C2	Disease Progression Factor 	Amplification	Diagnosis, Treatment 	ERK/MAPK, PI3K/AKT, JAK/STAT, angiogenesis, histone modification	Surgery, Chemotherapy
+B7C2	B7	C2	Disease Progression Factor 	Amplification	Diagnosis, Treatment 	ERK/MAPK, PI3K/AKT, JAK/STAT, angiogenesis, histone modification	Surgery, Chemotherapy
+B8C2	B8	C2	Disease Progression Factor 	amplification	Diagnosis, Recurrence	PI3K/AKT, EMT, JAK2/STAT3, and ERK1/2,	Surgery, Chemotherapy
+B9C3	B9	C3	Risk Factor	SNP	Diagnosis	Melanosome organization and melanin biosynthetic process	Antibody-drug Conjugates
+B9C4	B9	C4	Risk Factor	SNP	Diagnosis	Melanosome organization and melanin biosynthetic process	Antibody-drug Conjugates
+B10C3	B10	C3	Risk Factor	SNP	Diagnosis	Melanosome biogenesis and melanocyte differenciation	Cancer Vaccines, Immunotherapy
+B10C5	B10	C5	Risk Factor	SNP	Diagnosis	Melanosome biogenesis and melanocyte differenciation	Cancer Vaccines, Immunotherapy
+B11C3	B11	C3	Risk Factor	SNP	Diagnosis	Melanin biosyntetic pathway (rate-limiting enzyme for melanin production)	Drug Related Targeting
+B11C4	B11	C4	Risk Factor	SNP	Diagnosis	Melanin biosyntetic pathway (rate-limiting enzyme for melanin production)	Drug Related Targeting
+B12C5	B12	C5	Oncogene, Risk Factor	SNP, Amplification, Mutations	Prognosis	Regulation of melanocyte development, pigmentaiton and cell proliferation	Epigentic Therapies
+B12C6	B12	C6	Oncogene, Risk Factor	SNP, Amplification, Mutations	Prognosis	Regulation of melanocyte development, pigmentaiton and cell proliferation	Epigentic Therapies
+B13C7	B13	C7	Risk Factor	SNP, Amplification	Prognosis	Extracellular matrix organization and cell adhesion	Targeted Therapies 
+B14C5	B14	C5	Tumor Suppressor	SNP, deletions	Diagnosis	Cell cycle and apotosis	Inhibitors Targeting Pathways
+B15C6	B15	C6	Risk Factor	Amplification	Diagnosis	Cell proliferation, mobility, and metastasis	Immunotherapy
+B16C8	B16	C8	Tumor Suppressor, Risk Factor	Deletion	Diagnosis	Cell cycle and apotosis	Inhibitors Targeting Pathways
+B17C8	B17	C8	Risk Factor	SNP	Diagnosis	Melanin biosynthetic pathway and UV damage repair	Peptide Drug Conjugates
+B12C8	B12	C8		SNP, Amplification, Mutations	Prognosis	Regulation of melanocyte development, pigmentaiton and cell proliferation	Epigentic Therapies
+B18C8	B18	C8	Oncogene, Risk Factor	Mutations	Prognosis	Telomere maintenance and cellular immortality	Inhibitors Targeting Pathways
+B19C8	B19	C8	Oncogene	Mutations	Diagnosis	Cell Cycle progression (G1 to S phase transition)	Inhibitors Targeting Pathways
+B20C8	B20	C8	Tumor Suppressor, Risk Factor	Mutations	Diagnosis	Chromatin remodeling and DNA damage response	Epigentic Therapies, Modulators
+B21C9	B21	C9	Tumor Suppressor, Risk Factor	Mutations	Prognosis	Hedgehog signaling pathway	Inhibitors Targeting Pathways
+B22C9	B22	C9	Tumor Suppressor, Risk Factor	Mutations	Prognosis	Hedgehog signaling pathway	Inhibitors Targeting Pathways
+B23C9	B23	C9	Risk Factor	Mutations	Diagnosis	DNA repair and genomic stabability	Inhibitors Targeting Pathways
+B3C9	B3	C9	Tumor Suppressor, Risk Factor	Mutations, SNPs, loss of function	Prognosis	Cell cycle arrest, apotosis, and DNA repair	PARP Inhibitors, Drug Combination Targeting
+B24C9	B24	C9	Risk Factor	Mutations, gain of function	Treatment	Cell differentiation, proliferation, and apotosis	Gamma-secretase Inhibitors, Antibodies Targeting
+B25C9	B25	C9	Risk Factor	Mutations, loss of function	Diagnosis	Nucleotide excision repair and UV damage recognition	Drug Targeting And UV Damage Recognition
+B26C9	B26	C9	Risk Factor	Mutations, SNPs, loss of function	Treatment	DNA damage recognition and repair (Nucleotide excision repair pathway)	Chemotherapy
+B27C9	B27	C9	Risk Factor	Mutations, SNPs, loss of function	Treatment	Transcription-coupled DNA repair and nucleotide excision repair	Cisplatin Sensitivity Targeting
+B28C9	B28	C9	Risk Factor	Mutations, loss of function	Treatment	Nuceotide excision repair adn helicase activity	Immunotherapy, Repair Inhibitors Targeting
+B29C9	B29	C9	Risk Factor	Mutations, loss of function	Treatment	Nuceotide excision repair pathway	Drug Targeting
+B30C9	B30	C9	Risk Factor	Mutations, loss of function	Treatment	DNA damage repair via the nucleotide excision repair	Drug Targeting
+B31C9	B31	C9	Risk Factor	Mutations, loss of function	Treatment	DNA repair of UV-induced lesions (Traslesion synthesis pathway)	Inhibitor of Translesion Synthesis for Platinum-based Chemotherapy Sensitization
+B32C9	B32	C9	Risk Factor	Mutations, loss of function	Diagnosis	DNA damage vertification and nucleotide excision repair	Small Molecule Inhibitor
+B33C9	B33	C9	Risk Factor	Mutations, loss of function	Diagnosis	DNA damage recognition and nucleotide excision repair	Drug Therapy to Repair Efficiency
+B34C9	B34	C9	Tumor Suppressor, Risk Factor	Mutations, loss of function	Diagnosis	DNA mismatch repair and genome stability	Inhibitor Targeting Pathways
+B35C10	B35	C10	Tumor Suppressor	Deletion	Prognosis	Antagonist of the WNT signaling pathway, also involved in other processes including cell mugration and adhesion transcriptional activation, and apotosis	Targeted Therapies 
+B36C11	B36	C11	Progression 	Amplification, mutations, splicing variants	Treatment	A steroid hormone-activated transcriptional factor, which remains important in devlopment; amplification and mutations of AR contribute to the progression of prostate cancer and the failure of ADT by allowing constitutive activation of AR pathway 	Androgen Deprivation Therapy (ADT), AR Antagonists And CYP17 Inhibitors
+B37C10	B37	C10	Tumor Suppressor	Deletion, Mutation	Treatment	One of the master controllers of the cell cycle checkpoint signaling pathways that are required for cell response to DNA damage and for genome stability	PARP Inhibitors, Targeted Therapies 
+B4C10	B4	C10	Risk Factor	Deletion, Mutation	Treatment	Plays a key role in transcription, DNA repair of double standard breaks and recombination 	Targeted Therapies 
+B5C10	B5	C10	Risk Factor	Deletion, Mutation	Treatment	Plays a key role in transcription, DNA repair of double standard breaks and recombination 	Targeted Therapies 
+B38C13	B38	C13	Oncogene, Tumor Suppressor 	Deletion	Prognosis	Involved in transcription-related chromatin modeling but also required to maintain a specific chromatin configuration across the genome, CHD1 cooperation with H3K4me3 regulates NF-kB pathway gene transcription 	Immunotherapy 
+B39C13	B39	C13	Tumor Suppressor	Deletion, Mutation	Prognosis	Transcriptional repressor that binds to E26 transformation-specific 2 (ETS2) promoter, ERG competes with ERF to bind DNA at consensus ETS sites	Drug Related Targeting 
+B40C14	B40	C14	Oncogene	Fusion, Deletion	Treatment	ETS activation enhances tumorigensis through broad mechanisms, including linage specification,, geneome instability, epigentic alterations, adn metabolism remodeling	AR-targeting Therapies, Drug Combination Targeting
+B41C13	B41	C13	Oncogene	Deletion	Prognosis	ETS activation enhances tumorigensis through broad mechanisms, including linage specification,, geneome instability, epigentic alterations, adn metabolism remodeling	Drug Related Targeting 
+B42C13	B42	C13	Oncogene	Fusion, Deletion	Prognosis	ETS activation enhances tumorigensis through broad mechanisms, including linage specification,, geneome instability, epigentic alterations, adn metabolism remodeling	ETV1 Inhibitors 
+B43C11	B43	C11	Oncogene	Fusion, Deletion	Prognosis	ETS activation enhances tumorigensis through broad mechanisms, including linage specification,, geneome instability, epigentic alterations, adn metabolism remodeling	Drug Related Targeting 
+B44C11	B44	C11	Oncogene, Progression 	Fusion, Deletion	Prognosis	ETS activation enhances tumorigensis through broad mechanisms, including linage specification,, geneome instability, epigentic alterations, adn metabolism remodeling	Drug Related Targeting 
+B45C10	B45	C10	Oncogene	Mutation	Prognosis	Acts a co-activator for critical transcription factos, including AR	EZH2 Inhibitors, Epigentic Targeting Therapies
+B46C11	B46	C11	Progression 	Mutation	Treatment	Required for epithelial cell differentiation in murine prostate pand promotes cell cycle progression CRPC	AR-targeting Therapies, Drug Combination Targeting
+B47C10	B47	C10	Progression 	Mutation	Treatment	IDH1 mutatnt subtypes shows strongly elevatedd leves of genome wide DNA hypermethylation 	IDH1 Inhibitors, Metabolic Targeting Therapies
+B48C13	B48	C13	Tumor Suppressor, Progression 	Deletion, Mutation	Prognosis	Process histone methylation and involved in transcriptional co-activation 	Inhibitors Targeting Pathways
+B49C13	B49	C13	Tumor Suppressor	Deletion, Mutation	Prognosis	Process histone methylation and involved in transcriptional co-activation 	Inhibitors Targeting Pathways
+B50C13	B50	C13	Oncogene	Deletion, Mutation	Prognosis	Process histone methylation and involved in transcriptional co-activation 	Inhibitors Targeting Pathways
+B51C13	B51	C13	Progression 	Deletion, Mutation	Prognosis	Process histone demethylation and involved in transcription, acting as co-activatiors or corepressors, depending on the context	Inhibitors Targeting Pathways
+B52C13	B52	C13	Progression 	Deletion, Mutation	Prognosis	Process histone demethylation and involved in transcription, acting as co-activatiors or corepressors, depending on the context	Inhibitors Targeting Pathways, Androgen Receptor Therapy 
+B53C10	B53	C10	Tumor Suppressor	Deletion, Mutation	Prognosis	Process histone demethylation and involved in transcription, acting as co-activatiors or corepressors, depending on the context	Inhibitors Targeting Pathways. Histone Demethylase 
+B54C13	B54	C13	Oncogene	Amplification 	Treatment	Contributes to prostate cancer by directly activating the transcription of protumorigenic factors involved in cell growth and proliferation 	Targeted Therapies 
+B55C15	B55	C15	Progression 	Amplification 	Prognosis	Overexpresses or amplified in ~40% of NEPCs, a driver of NEPC initation 	Targeted Therapies 
+B56C11	B56	C11	Tumor Suppressor, Risk Factor	Deletion, Mutation	Treatment	AR co-repressors 	Targeted Therapies, Inhibitors Targeting Pathways
+B57C11	B57	C11	Tumor Suppressor, Risk Factor	Deletion, Mutation	Treatment	AR co-repressors 	Targeted Therapies, Inhibitors Targeting Pathways
+B58C13	B58	C13	Tumor Suppressor	Deletion	Prognosis	A PSA-regulated homeobox gene; a tumor supressor controlling tumor geneisis, cell proliferation, and invasion activites in prostate cancer 	Targeted Therapies, Inhibitors Targeting Pathways
+B59C10	B59	C10	Tumor Suppressor	Deletion, Mutation	Prognosis	Suppresses the PI3K-AKT-mTOR pathway to regulate cell survival, proliferation and energy metabolism 	PI3K Inhibitors,  AKT Inhibitors 
+B60C13	B60	C13	Tumor Suppressor	Deletion, Mutation	Prognosis	A negative regulator of the cell cycle, stabilzes constitutive heterochromatin to maintain the overall chromatin structure 	CDK4/6 Inhibitors, Ferroptosis Based Therapies 
+B61C11	B61	C11	Tumor Suppressor	Deletion	Prognosis	Histone methyltransferase that trimethylates H3K36 and activates transcription 	Targeted Therapies, Drug Related Targeting
+B62C13	B62	C13	Progression 	Amplification 	Treatment	Histone methyltransferase that trimethylates H3K9 and activates transcription 	Targeted Therapies 
+B63C13	B63	C13	Tumor supressor 	Deletion, Mutation	Prognosis	Tumor supressor; acts as a downstream effector of the TGFb pathway, regulates gene transcription, inhibits epithelial cell proliferation and remodels TME	Targeted Therapies 
+B64C13	B64	C13	Progression, Risk Factor	Deletion, Mutation	Prognosis	Components of the SWI and SNF complex, which has been shown to drive prostate tumorigenesis 	Drug Related Targeting 
+B65C10	B65	C10	Progression, Risk Factor	Deletion, Mutation	Treatment	Components of the SWI and SNF complex, which has been shown to drive prostate tumorigenesis 	Targeted Therapies 
+B66C13	B66	C13	Progression 	Mutation	Treatment	Component of a BTB-CUL3-RBX1 E3 ubiquitin-protein ligase complex, SPOP mutants cause stablization of oncogenic substrates such as JNK, NCOA3, DEK, and BET family proteins 	PARP Inhibitors; AR Targeted Therapies
+B3C13	B3	C13	Tumor Suppressor	Deletion, Mutation	Prognosis	Responds to diverse cellular stresses to regulate expression of genes involved in cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism 	Targeted Therapies 
+B67C16	B67	C16	Oncogene	In-frame Deletion, Missense Mutation	Treatment	Overactivates PI3K/AKT, mTOR, MAPK to drive proliferation of cancer cells and allow evasion of apoptosis	Tyrosine Kinase Inhibitors 
+B68C16	B68	C16	Oncogene	Fusion	Treatment	Overactivations PI3K/AKT, MAK/ERK, STAT3 drive proliferation of cancer cells and allow evasion of apoptosis	Tyrosine Kinase Inhibitors 
+B69C17	B69	C17	Oncogene	Fusion	Treatment	Overactivation PLCγ, PI3K/AKT, STAT3, VAV3, and MAPK/ERK; drive proliferation of cancer cells and allow evasion of apoptosis	Tyrosine Kinase Inhibitors 
+B70C17	B70	C17	Oncogene	Overexpression, SNP	Prognosis, Treatment 	Overactivates PI3K/AKT and MAPK signaling to drive proliferation of cancer cells and allow evasion of apoptosis	Tyrosine Kinase Inhibitors, HER2 Targeting Antibody 
+B1C18	B1	C18	Oncogene	SNP	Prognosis, Treatment 	MAPK/ERK/ RAS/RAF pathway; cell growth, proliferation, differentiation, survival, apoptosis	Vemurafenib And Dabrafenib
+B71C17	B71	C17	Oncogene	SNP, Amplification	Prognosis, Treatment 	Overactivation of RAS-CDC42-PAK-Rho kinase, RAS-MAPK, PI3K-AKT-mTOR, and β-catenin signaling to promote cellular proliferation, tumorgenesis and metastisis	Tyrosine Kinase Inhibitors 
+B72C18	B72	C18	Oncogene	Fusion, Amplification	Treatment	Overactivation of PI3K/AKT, RAS/RAF, MAPK, and PLCγ pathways, to promote cell proliferation, growth, and survival	Tyrosine Kinase Inhibitors 
+B73C17	B73	C17	Risk Factor	Overexpression	Treatment, Recurrence	Loss of regulation in the immune response 	PD-1 And PD-L1 Targeting Immunotherapy 
+B74C18	B74	C18	Risk Factor	Overexpression	Prognosis/Treatment Response	Prevention of T-cell immune response 	Immunotherapy 
+B74C17	B74	C17	Risk Factor	Overexpression	Prognosis/Treatment Response	Prevention of T-cell immune response 	Immunotherapy 
+B75C17	B75	C17	Oncogene	Amplification 	Prognosis/Treatment Response	Overactivation of PI3K/AKT to promote cell proliferation, growth, and survival	Surgery, Chemotherapy, Radiation therapy
+B76C17	B76	C17	Oncogene	Amplification 	Prognosis	Overactivation of different pathways, including the RAS/MAPK and PI3K/AKT/mTOR pathways, promoting cell survival, motility, invasiveness, and proliferation	Mutitargeted Tyrosine Kinase Inhibitors 
+B77C20	B77	C20	Risk Factor	Positive Expression	Prognosis, Treatment 	Hormone signaling pathways are responsive to hormonal induced changes	Endocrine Therapy
+B78C20	B78	C20	Risk Factor	Low Expression	Prognosis	Cell cycle	Endocrine Therapy
+B70C20	B70	C20	Risk Factor	No Expression	Prognosis, Treatment 	Overactivation of  the MAPK and PI3K/AKT signaling pathways to drive proliferation and tumorgenisis	Endocrine Therapy
+B77C21	B77	C21	Risk Factor	Positive Expression	Prognosis, Treatment 	Hormone signaling pathways are responsive to hormonal induced changes	Endocrine Therapy
+B78C21	B78	C21	Risk Factor	Overexpression	Prognosis	Cell cycle	Cytotoxic Chemotherapy
+B70C21	B70	C21	Risk Factor	Positive Expression	Prognosis, Treatment 	Overactivation of  the MAPK and PI3K/AKT signaling pathways to drive proliferation and tumorgenisis	Anti-HER2 Therapy (Trastuzumab)
+B77C22	B77	C22	Risk Factor	SNP, Null Mutation	Prognosis, Treatment 	Loss of hormone response signaling pathways 	Chemotherapy, Surgery
+B3C22	B3	C22	Tumor Suppressor	Gain of function	Prognosis	Cell cycle progression, senesence, apoptosis	Chemotherapy, Surgery
+B70C22	B70	C22	Risk Factor	No Expression	Prognosis, Treatment 	Overactivation of  the MAPK and PI3K/AKT signaling pathways to drive proliferation and tumorgenisis	Chemotherapy, Surgery
+B4C22	B4	C22	Tumor Supressor, Risk Factor	SNP, Loss of function	Treatment	DNA Repair, Homologous recombination	PARPi
+B5C22	B5	C22	Tumor Supressor, Risk Factor	SNP, Loss of function	Treatment	DNA Repair, Homologous recombination	PARPi
+B77C23	B77	C23	Risk Factor	Null Mutation	Prognosis, Treatment 	Loss of hormone response signaling pathways 	Anti-HER2 Therapy (Trastuzumab)
+B3C23	B3	C23	Tumor Suppressor	Gain of function	Prognosis	Cell cycle progression, senesence, apoptosis	Anti-HER2 Therapy (Trastuzumab)
+B78C23	B78	C23	Risk Factor	Overexpression	Prognosis	Cell cycle 	Anti-HER2 Therapy (Trastuzumab)
+B70C23	B70	C23	Risk Factor	No Expression	Prognosis, Treatment 	Overactivation of  the MAPK and PI3K/AKT signaling pathways to drive proliferation and tumorgenisis	Anti-HER2 Therapy (Trastuzumab)
+B1C24	B1	C24	Oncogene	SNP, amplification	Prognosis, Treatment, Recurrence	MAPK/ERK/ RAS/RAF pathway; cell growth, proliferation, differentiation, survival, apoptosis	Anti-EGFR Targeted Therapy
+B2C24	B2	C24	Oncogene	SNP, amplification	Prognosis, Treatment 	MAPK/ERK pathway; cell growth, proliferation, differentiation, survival, apoptosis	Anti-EGFR Targeted Therapy
+B2C25	B2	C25	Oncogene	SNP, amplification	Prognosis, Treatment 	MAPK/ERK pathway; cell growth, proliferation, differentiation, survival, apoptosis	Anti-EGFR Targeted Therapy
+B3C25	B3	C25	Tumor Suppressor	Null Mutation	Prognosis	Cell cycle progression, senesence, apoptosis	Non-5FU-based Chemotherapy
+B79C25	B79	C25	Tumor Suppressor	SNP, Hypermethylation	Prognosis	Overactivation of T-cell factor/LEF target gene	Chemotherapy
+B75C24	B75	C24	Oncogene	SNP	Prognosis, Treatment 	Overactivation of PI3K/AKT to promote cell proliferation, growth, and survival	Adjuvant Aspirin Therapy
+B59C24	B59	C24	Tumor Suppressor	SNP, Hypermethylation	Prognosis	Suppresses the PI3K-AKT-mTOR pathway to regulate cell survival, proliferation and energy metabolism 	Anti-EGFR Targeted Therapy
+B80C25	B80	C25	Tumor Suppressor	Decressed Expression, Null Mutation	Prognosis	Dysfunction in ahesion receptor ligand interction 	Surgery, Chemotherpy, Radiation
+B81C25	B81	C25	Risk Factor	Overexpression	Prognosis, Treatment 	Overactivation of the  PI3K-AKT/PKB pathway and the Ras-MAPK pathway to promote anti-apoptotic activity	Immunotherapy, Tyrosine Kinase Inhibitors

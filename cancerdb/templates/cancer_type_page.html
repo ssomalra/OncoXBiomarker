@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ cancer_name }} Cancer Details | OncoXBiomarker</title>
+  <style>
+    nav {
+      background-color: #0055aa;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    /* Dropdown styling */
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+    .dropbtn {
+      background-color: #0055aa;
+      color: white;
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #e3f2fd;
+      min-width: 160px;
+      z-index: 9999;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    }
+    .dropdown-content a {
+      color: #003366;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .dropdown-content a:hover {
+      background-color: #d0e7ff;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #003366;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px; padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 { 
+      color: white;
+    }
+    h2 {
+      color: #0055aa;
+      margin-top: 40px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #e6f0fa;
+    }
+    a {
+      color: #0055aa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 30px;
+      flex-grow: 1;
+    }
+    .content h2 {
+      color: #003366;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>{{ cancer_name }} Cancer</h1>
+  <p>OncoXBiomarker: Cancer Biomarker Database</p>
+</header>
+
+<nav>
+  <a href="{% url 'home' %}">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Cancers</button>
+    <div class="dropdown-content">
+      {% for cancer in all_cancers %}
+        <a href="{% url 'cancer_type_page' cancer.cancer_name %}">{{ cancer.cancer_name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <a href="{% url 'help_page' %}">Help</a>
+</nav>
+
+{% for cancer in cancers %}
+  <h2>
+    {% if cancer.subtype_name %}
+      <a href="{% url 'subtype_detail' cancer.subtype_name %}">{{ cancer.subtype_name }}</a>
+    {% else %}
+      Not specified
+    {% endif %}
+  </h2>
+
+  {% if cancer.cancer_description %}
+    <p>{{ cancer.cancer_description }}</p>
+  {% endif %}
+
+  <table>
+    <thead>
+      <tr>
+        <th>Biomarker</th>
+        <th>Role</th>
+        <th>Mutation Type</th>
+        <th>Clinical Implication</th>
+        <th>Treatment</th>
+        <th>Citation</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for impact in impacts %}
+        {% if impact.cancer == cancer %}
+        <tr>
+          <td>
+            <a href="{% url 'biomarker_detail' impact.biomarker.biomarker_id %}">
+              {{ impact.biomarker.gene_symbol }}
+            </a>
+          </td>
+          <td>{{ impact.biomarker_role }}</td>
+          <td>{{ impact.mutation_type }}</td>
+          <td>{{ impact.clinical_implication }}</td>
+          <td>{{ impact.treatment }}</td>
+          <td>
+            {% for ref_link in impact.biomarkerimpactreference_set.all %}
+              {% if ref_link.reference.url %}
+                <a href="{{ ref_link.reference.url }}" target="_blank">Citation</a><br>
+              {% else %}
+                No link<br>
+              {% endif %}
+            {% empty %}
+              No citation
+            {% endfor %}
+          </td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
+
+<footer>
+  <p>&copy; 2025 OncoXBiomarker | Built by Group 1: Bijal, Sahiti, Jess, Rebekah, and Alex</p>
+</footer>
+
+</body>
+</html>

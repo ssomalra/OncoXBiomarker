@@ -1,0 +1,44 @@
+reference_id	url	title	source	publication_year	primary_author
+1	https://academic.oup.com/jnci/article/95/6/484/2520660	Mutations in BRAF and KRAS Characterize the Development of Low-Grade Ovarian Serous Carcinoma	JNCI: Journal of the National Cancer Institute	2003	Singer, G
+2	https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002198	Exploratory Analysis of TP53 Mutations in Circulating Tumour DNA as Biomarkers of Treatment Response for Patients with Relapsed High-Grade Serous Ovarian Carcinoma: A Retrospective Study	PLOS Medicine	2016	Parkinson C, A
+3	https://aacrjournals.org/clincancerres/article/10/7/2473/35360/Pathology-of-Ovarian-Cancers-in-BRCA1-and-BRCA2	Pathology of Ovarian Cancers in BRCA1 and BRCA2 Carriers	Clinical Cancer Research	2004	Lakhani, S, R
+4	https://pubmed.ncbi.nlm.nih.gov/12839961/	The HE4 (WFDC2) protein is a biomarker for ovarian carcinoma	Cancer Research	2003	Hellström, I
+5	https://pmc.ncbi.nlm.nih.gov/articles/PMC4679342/	Clinical Use of Cancer Biomarkers in Epithelial Ovarian Cancer	International Journal of Gynecological Cancer	2016	Sölétormos, G
+6	https://www.gynecologiconcology-online.net/article/S0090-8258(04)00079-4/pdf	Utility of osteopontin as a biomarker in recurrent epithelial ovarian cancer	Gynecologic Oncology	2003	Brakora, K, A
+7	https://pubmed.ncbi.nlm.nih.gov/25013535/	Diagnostic and prognostic biomarkers in melanoma	The Journal of clinical and aesthetic dermatology	2014	Weinstein, D
+8	https://doi.org/10.1093/bjd/ljad365	Assessing the genetic risk of nodular melanoma using a candidate gene approach	British Journal of Dermatology	2023	Stark, MS
+9	https://doi.org/10.1038/s41598-024-54136-3	ARID2 mutations may relay a distinct subset of cutaneous melanoma patients with different outcomes 	Scientific Reports	2024	Akinjiyan, FA
+10	https://www.cancer.org/cancer/types/melanoma-skin-cancer/causes-risks-prevention/genetic-counseling-and-testing-for-people-at-high-risk-of-melanoma.html	Genetic counseling and testing for people at high risk of melanoma	American Cancer Society 	2023	American Cancer Society
+11	https://doi.org/10.3390/genes12071093	Behind the Scene: Exploiting MC1R in Skin Cancer Risk and Prevention	Genes	2021	Manganelli, M
+12	 https://doi.org/10.3390/cancers14102371	Non-Melanoma Skin Cancer: A Genetic Update and Future Perspectives.	Cancers	2022	Zambrano-Román, M
+13	https://www.ncbi.nlm.nih.gov/books/NBK390611/	BAP1 Tumor Predisposition Syndrome	National Library of Medicine	2024	Pilarski, R.
+14	https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ptch2-gene	PTCH2 gene	National Cancer Institute	\N	National Cancer Institute
+15	https://www.cancer.gov/publications/dictionaries/cancer-terms/def/recql4-gene	RECQL4 gene	National Cancer Institute	\N	National Cancer Institute
+16	https://doi.org/10.1073/pnas.0306551101	DDB2 gene disruption leads to skin tumors and resistance to apoptosis after exposure to ultraviolet light but not a chemical carcinogen	PNAS	2004	Itoh, T.
+17	https://www.ncbi.nlm.nih.gov/books/NBK1397/#:~:text=Xeroderma%20pigmentosum%20(XP)%20is%20characterized%20by:%20*,melanoma)%20within%20the%20first%20decade%20of%20life.	Xeroderma Pigmentosum	National Cancer Institute	2022	Kraemer, K.
+18	https://doi.org/10.1016/j.ejca.2009.04.034	Variants of the xeroderma pigmentosum variant gene (POLH) are associated with melanoma risk	uropean journal of cancer (Oxford, England : 1990)	2009	Di Lucca, J.
+19	https://pubmed.ncbi.nlm.nih.gov/17334634/	The human POLH gene is not mutated, and is expressed in a cohort of patients with basal or squamous cell carcinoma of the skin.	nternational journal of molecular medicine	2007	Flanagan, A
+20	https://medlineplus.gov/genetics/condition/xeroderma-pigmentosum/#:~:text=People%20with%20xeroderma%20pigmentosum%20are,the%20cornea%20)%20may%20become%20cloudy.	Xeroderma pigmentosum	MedlinePlus	2023	MedlinePlus
+21	https://myriad.com/gene-results/?gene=MLH1&allele=1	MLH1 gene	Myriad Genetics	2024	Myriad Genetics
+22	https://www.facingourrisk.org/info/hereditary-cancer-and-genetic-testing/hereditary-cancer-genes-and-risk/genes-by-name/mlh1/other-considerations	MLH1 (Lynch Syndrome): Other Considerations	Force	2025	Force
+23	https://onlinelibrary.wiley.com/doi/10.1111/cup.14753?af=R 	Frequent Occurrence of High-Risk Basal Cell Carcinoma in Xeroderma Pigmentosum: A Histopathological Insight From an Indian Cohort	Journal of Cutaneous Pathology 	2024	Shafaque, I.
+24	https://doi.org/10.1101/gad.315739.118	Genetics and biology of prostate cancer	Genes & development	2018	Wang, G.
+25	https://doi.org/10.1016/j.humpath.2012.01.018	Rearrangement of the ETS genes ETV-1, ETV-4, ETV-5, and ELK-4 is a clonal event during prostate cancer progression. 	Human pathology	2012	Alder, D.
+26	https://pubmed.ncbi.nlm.nih.gov/27912828/	Lung Cancer Biomarkers	Hematology/Oncology Clinics of North America	2017	Villalobos, P
+27	http://www.ncbi.nlm.nih.gov/books/NBK583808/	Breast cancer subtypes and molecular biomarkers	diagnostic histopathology	2009	McCafferty, M
+28	https://doi.org/10.1038/s41416-024-02827-z	BRCA-mutated breast cancer: the unmet need, challenges and therapeutic benefits of genetic testing	british journal of cancer	2024	Arun, B
+29	https://pubmed.ncbi.nlm.nih.gov/28050598/	ALK: a tyrosine kinase target for cancer therapy	Cold Spring Harbor Molecular Case Studies	2017	Holla, VR
+30	https://doi.org/10.1158/1078-0432.CCR-12-2851	Molecular Pathways - ROS1 Fusion Proteins in Cancer	Clinical Cancer Research	2013	Davies, KD
+31	https://doi.org/10.3390/ijms232213898	MET Signaling Pathways, Resistance Mechanisms, and Opportunities for Target Therapies	International Journal of Molecular Sciences	2022	Rivas, S
+32	https://doi.org/10.3389/fonc.2022.932353	RET signaling pathway and RET inhibitors in human cancer	frontiers in Oncology	2022	Regua, AT
+33	https://doi.org/10.1186/s12885-022-09830-8	Determination of essential biomarkers in lung cancer: a real-world data study in Spain with demographic, clinical, epidemiological and pathological characteristics	BMC Cancer	2022	Provencio, M
+34	https://doi.org/10.1038/bjc.2014.555	PD-1 and PD-L1 expression in molecularly selected non-small-cell lung cancer patients	British Journal of Cancer	2015	D'Incecco, A
+35	https://doi.org/10.1158/0008-5472.CAN-07-5084	PIK3CA Mutations and Copy Number Gains in Human Lung Cancers	Cancer Research	2008	Yamamoto, H
+36	https://pubmed.ncbi.nlm.nih.gov/25433983/ 	FGFR1 amplification in lung squamous cell carcinoma: a systematic review with meta-analysis	Lung Cancer	2015	Jiang, T
+37	https://pubmed.ncbi.nlm.nih.gov/21160078/	Frequent and focal FGFR1 amplification associates with therapeutically tractable FGFR1 dependency in squamous cell lung cancer	Science Translational Medicine	2010	Weiss, J
+38	https://doi.org/10.12998/wjcc.v6.i15.869	Biomarkers in colorectal cancer: Current clinical utility and future perspectives	World Journal of Clinical Cases	2018	Vacante, M
+39	https://doi.org/10.2174/187152012799014968	Are KRAS/BRAF Mutations Potent Prognostic and/or Predictive Biomarkers in Colorectal Cancers?	Anti-Cancer Agents in Medicinal Chemistry	2012	Yokota, T
+40	https://doi.org/10.1002/humu.10175	TP53 Mutation in Colorectal Cancer	Human Mutation	2003	Lacopetta, B
+41	https://doi.org/10.18632/oncotarget.17576	APC hypermethylation for early diagnosis of colorectal cancer: a meta-analysis and literature review	Oncotarget	2017	Liang, T
+42	https://doi.org/10.3390/cancers11111765	PTEN in Colorectal Cancer: Shedding Light on Its Role as Predictor and Target	Cancers	2019	Salvatore, L
+43	https://doi.org/10.1371/journal.pone.0067040	NDST4 Is a Novel Candidate Tumor Suppressor Gene at Chromosome 4q26 and Its Genetic Loss Predicts Adverse Prognosis in Colorectal Cancer	PLOS	2013	Tzeng, S
