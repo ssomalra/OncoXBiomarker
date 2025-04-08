@@ -31,7 +31,6 @@ A Django-based web application that allows users to explore a curated cancer bio
 - `finalproject/`: The main Django project settings folder (configures databases, static files, etc.).
 
 ## Authors
-Graduate students at IU Indianapolis
 - Sahiti Somalraju, IU Luddy School of Informatic, Computing, and Engineering
 - Rebekah Lanning, IU Luddy School of Informatic, Computing, and Engineering
 - Bijal Patel, Richard M. Fairbanks School of Public Health
