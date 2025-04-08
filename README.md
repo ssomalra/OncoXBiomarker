@@ -11,7 +11,7 @@ A Django-based web application that allows users to explore a curated cancer bio
 - Subtype detail pages with ICD and cancer description
 
 <p align="center">
-  <img width="800" alt="Screenshot 2025-04-08 at 3 43 26 PM" src="https://github.com/user-attachments/assets/2a8e2735-8f3c-487a-aa42-ba63c052ef2b" />
+  <img width="600" alt="Screenshot 2025-04-08 at 3 43 26 PM" src="https://github.com/user-attachments/assets/2a8e2735-8f3c-487a-aa42-ba63c052ef2b" />
 </p>
 
 ## Tech Stack
