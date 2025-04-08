@@ -1,5 +1,5 @@
 # OncoXBiomarker
-A Django-based web application that allows users to explore a curated cancer biomarker database. The site enables users to view biomarkers associated with specific cancer types, explore cancer subtypes, and access relevant clinical data and research references. The project is designed to support researchers, clinicians, and students by providing a user-friendly interface to navigate biomarker-impact relationships.
+A Django-based web application that allows users to explore a curated cancer biomarker database. The site enables users to view biomarkers associated with specific cancer types, explore cancer subtypes, and access relevant clinical data and research references. The project is designed to support researchers and clinicians by providing a user-friendly interface to navigate biomarker-impact relationships.
 
 ## Features
 - Interactive homepage with buttons for each cancer type
